@@ -69,7 +69,7 @@
 #Function - check_quotient
 #Create a function named `check_quotient` which does not require any parameters.
 
-#This function will multiply the values stored in the product and quotient variables. Invoke this function and print your result.
+#This function will divide the values stored in the product and quotient variables. Invoke this function and print your result.
 
 
 #10
