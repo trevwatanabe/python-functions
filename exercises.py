@@ -1,17 +1,21 @@
 #A function is a block of code (a series of instructions) designed to execute a certain task. Functions allow you to reuse code.
- print('hello world')
 #Below are some specifications for Functions to be built.
 
 #1 
 #Declare two variables box_1 and box_2 and assign any number value of your choosing. These two variables will be used to invoke functions #2 - #5.
-
+box_1 = 1
+box_2 = 2
 
 #2
 #Function - add
 #Create a function named `add` which will take two parameters: `num_1` and `num_2`.
- 
+def add(num1, num2):
+    sum = num1 + num2
+    return sum
+print(add(3,5))
 #This function will add two numbers (the parameters, `num_1` and `num_2`) and return the sum of these two numbers. Invoke the function and assign it to a variable named `sum`.
-
+ sum = add(1,2)
+ print(sum)
 #Print the sum variable to see your result.
 
 
