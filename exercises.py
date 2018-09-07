@@ -14,14 +14,18 @@ def add(num1, num2):
     return sum
 print(add(3,5))
 #This function will add two numbers (the parameters, `num_1` and `num_2`) and return the sum of these two numbers. Invoke the function and assign it to a variable named `sum`.
- sum = add(1,2)
- print(sum)
+sum = add(1,2)
 #Print the sum variable to see your result.
+print(sum)
 
 
 #3
 #Function - subtract
 #Create a function named `subtract` which will take two parameters: `num_1` and `num_2`.
+def subtract (num1, num2):
+    difference = num1 - num2
+    return difference
+print(subtract(9,3))
 
 #This function will subtract two numbers and return the difference of these two numbers. Invoke the function and assign it to a variable named `difference`.
 
