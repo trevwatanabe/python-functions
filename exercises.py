@@ -1,5 +1,5 @@
 #A function is a block of code (a series of instructions) designed to execute a certain task. Functions allow you to reuse code.
- 
+ print('hello world')
 #Below are some specifications for Functions to be built.
 
 #1 
