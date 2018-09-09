@@ -39,7 +39,11 @@ print(subtract(9,3))
 #This function will multiply two numbers and return the product of these two numbers. Invoke the function and assign it to a variable named `product`.
 
 #Print the product variable to see your result.
+def multiply(num1, num2):
+    product = num1 * num2
+    return product
 
+print(multiply(9, 3))
 
 #5
 #Function - divide
@@ -47,6 +51,7 @@ print(subtract(9,3))
 #This function will divide two numbers and return the quotient of these two numbers. Invoke the function and assign it to a variable named `quotient`.
 
 #Print the quotient variable to see your result.
+
 
 
 #6
