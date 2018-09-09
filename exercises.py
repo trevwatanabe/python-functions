@@ -52,7 +52,11 @@ print(multiply(9, 3))
 
 #Print the quotient variable to see your result.
 
+def divide (num1, num2):
+    quotient = num1 / num2
+    return quotient
 
+print(divide(9,3))
 
 #6
 #Function - check_sum
