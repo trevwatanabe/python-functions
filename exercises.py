@@ -65,6 +65,12 @@ print(divide(9,3))
 
 #Print the da_diva variable to see your result.
 
+def check_sum (sum):
+    da_diva = 'Mariah Carey has been married {} amount of times'.format(sum)
+    return da_diva
+da_diva = check_sum(sum)
+print(da_diva)
+
 
 #7
 #Function - check_difference
@@ -73,6 +79,7 @@ print(divide(9,3))
 #This function will return the string "Last night I dreamt that I ate `x` Big Macs."  Where `x` is the value stored in the difference variable from exercise 3. Invoke this function and assign it to a variable named `loving_it`
 
 #Print the loving_it variable to see your result.
+
 
 
 #8
