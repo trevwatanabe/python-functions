@@ -3,8 +3,8 @@
 
 #1 
 #Declare two variables box_1 and box_2 and assign any number value of your choosing. These two variables will be used to invoke functions #2 - #5.
-box_1 = 1
-box_2 = 2
+box_1 = 5
+box_2 = 3
 
 #2
 #Function - add
@@ -12,11 +12,15 @@ box_2 = 2
 def add(num1, num2):
     sum = num1 + num2
     return sum
+add(box_1, box_2)
+sum = add(box_1, box_2)
+print(sum)
+
 print(add(3,5))
 #This function will add two numbers (the parameters, `num_1` and `num_2`) and return the sum of these two numbers. Invoke the function and assign it to a variable named `sum`.
-sum = add(1,2)
+#sum = add(1,2)
 #Print the sum variable to see your result.
-print(sum)
+#print(sum)
 
 
 #3
@@ -25,7 +29,8 @@ print(sum)
 def subtract (num1, num2):
     difference = num1 - num2
     return difference
-print(subtract(9,3))
+difference = subtract(box_1, box_2)
+print(difference)
 
 #This function will subtract two numbers and return the difference of these two numbers. Invoke the function and assign it to a variable named `difference`.
 
@@ -43,7 +48,8 @@ def multiply(num1, num2):
     product = num1 * num2
     return product
 
-print(multiply(9, 3))
+product = multiply(box_1, box_2)
+print(product)
 
 #5
 #Function - divide
@@ -66,7 +72,7 @@ print(divide(9,3))
 #Print the da_diva variable to see your result.
 
 def check_sum (sum):
-    da_diva = 'Mariah Carey has been married {} amount of times'.format(sum)
+    da_diva = 'Mariah Carey has been married {} times'.format(sum)
     return da_diva
 da_diva = check_sum(sum)
 print(da_diva)
@@ -80,6 +86,10 @@ print(da_diva)
 
 #Print the loving_it variable to see your result.
 
+def check_difference (difference):
+    return 'Last night I dreamt that I ate {} Big Macs.' .format(difference)
+loving_it = check_difference(difference)
+print(loving_it)
 
 
 #8
